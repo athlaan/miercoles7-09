@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+      link(rel="stylesheet" href="styles.css")
+      title ecommerce
+    body
+      img(src="img/doge.jpg")
+      h2 Agrega productos dale!
+      form(action="/api/products" method="post")
+          label Titulo
+          input(name="title")
+          br
+          label Precio
+          input(name="title")
+          br
+          label Stock
+          input(name="title")
+          br
+          input(type="submit" value="Enviar")
